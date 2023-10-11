@@ -1,0 +1,15 @@
+int a=0,b=0,c=0,d=0;
+void settings(){
+  super.settings();
+  size(1000,900);
+}
+void draw(){
+  ellipse(a,200,20,20);
+  a=a+1;
+  ellipse(b,400,20,20);
+  b=b+2;
+  ellipse(c,600,20,20);
+  c=c+3;
+  ellipse(d,800,20,20);
+  d=d+4;
+}
